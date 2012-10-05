@@ -1,16 +1,18 @@
-# OmniAuth Instagram
+# OmniAuth Glitch
 
-This is the unofficial OmniAuth strategy for authenticating to Instagram. To
+This is the unofficial OmniAuth strategy for authenticating to Glitch. To
 use it, you'll need to sign up for an OAuth2 Application ID and Secret
-on the [Instagram Developer website](http://instagram.com/developer/).
+on the [Glitch Developer website](http://developer.glitch.com/).
 
 ## Basic Usage
 
     use OmniAuth::Builder do
-      provider :instagram, ENV['INSTAGRAM_ID'], ENV['INSTAGRAM_SECRET']
+      provider :glitch, ENV['GLITCH_API_KEY'], ENV['GLITCH_API_SECRET']
     end
 
 ## License
+
+Copyright (c) 2012 Ivan Wick
 
 Copyright (c) 2011 Mihai Anca and Intridea, Inc.
 
